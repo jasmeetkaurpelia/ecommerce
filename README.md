@@ -29,11 +29,11 @@ This is a simple, role-based eCommerce platform built in **PHP**, **MySQL (MySQL
 
 All users use password: **123456**
 
-| Username | Role   |
-|----------|--------|
-| admin    | Admin  |
-| rajesh   | Rajesh |
-| kapil    | Kapil  |
+| Username | Role            |
+|----------|-----------------|
+| admin    | Admin           |
+| rajesh   | Manage Products |
+| kapil    | Manage Stocks   |
 
 ---
 
