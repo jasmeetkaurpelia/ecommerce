@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header, footer {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.product {
+    display: flex;
+    border: 1px solid #ccc;
+    background: white;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.product img {
+    width: 100px;
+    height: fit-content;
+    margin-right: 15px;
+}
+
+form {
+    margin-top: 10px;
+}
+button {
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="text"], input[type="email"], input[type="file"], select {
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #222;
+    padding: 10px 20px;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Apply to body and html */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Wrapper to push footer down */
+.page-wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content grows to push footer */
+.container {
+    flex: 1;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Footer stays at bottom */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.go-back-btn{
+    text-align: center;
+    margin: 15px 0 0;
+}
